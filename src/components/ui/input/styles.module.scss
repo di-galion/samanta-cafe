@@ -1,0 +1,46 @@
+.input_form {
+  //margin-bottom: 0.4rem;
+
+    .input {
+      @apply w-full block py-[0.375rem] px-[0.75rem] text-lg border border-gray-200;
+
+      &::placeholder {
+        color: black;
+        opacity: 0.4;
+      }
+      &:focus {
+        border-color: #bdbdbd;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+        &::placeholder {
+          opacity: 0.4;
+        }
+      }
+    }
+
+  .input_error {
+    @apply border border-red-500;
+
+    &:focus {
+      border-color: #bdbdbd;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+      &::placeholder {
+        opacity: 0.4;
+      }
+    }
+
+  }
+
+    .label {
+      color: black;
+      opacity: 0.4;
+      box-sizing: border-box;
+      display: inline-block;
+      font-size: 0.8rem;
+    }
+
+  .label_error {
+    color: red
+  }
+}

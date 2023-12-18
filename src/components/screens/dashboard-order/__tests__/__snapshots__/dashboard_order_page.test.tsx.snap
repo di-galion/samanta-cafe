@@ -1,0 +1,629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard order page Should only for admin page with no admin user 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="only_for_admin"
+        data-testid="only-admin-test"
+      >
+        <h1
+          class="heading"
+        >
+          Only for admin page
+        </h1>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="only_for_admin"
+      data-testid="only-admin-test"
+    >
+      <h1
+        class="heading"
+      >
+        Only for admin page
+      </h1>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Dashboard order page Should render with admin user 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="page_container"
+      >
+        <h1
+          class="heading"
+        >
+          Orders
+        </h1>
+        <div
+          class="catalog"
+        >
+          <div
+            class="filter_wrapper"
+          >
+            <div
+              class="select"
+            >
+              <div
+                class="select_wrapper"
+              >
+                <button
+                  class="select"
+                >
+                  нет фильтрации
+                </button>
+                <ul
+                  class="list_hidden"
+                >
+                  <li
+                    class="item"
+                    data-value="не подтверждено"
+                  >
+                    не подтверждено
+                  </li>
+                  <li
+                    class="item"
+                    data-value="готовится"
+                  >
+                    готовится
+                  </li>
+                  <li
+                    class="item"
+                    data-value="ожидает клиента"
+                  >
+                    ожидает клиента
+                  </li>
+                  <li
+                    class="item"
+                    data-value="в доставке"
+                  >
+                    в доставке
+                  </li>
+                  <li
+                    class="item"
+                    data-value="отменен"
+                  >
+                    отменен
+                  </li>
+                  <li
+                    class="item"
+                    data-value="нет фильтрации"
+                  >
+                    нет фильтрации
+                  </li>
+                </ul>
+                <div
+                  class="overflow"
+                />
+              </div>
+            </div>
+          </div>
+          <ul>
+            <div
+              data-testid="loader-test"
+              style="display: flex; justify-content: center; align-items: center;"
+            >
+              <svg
+                aria-busy="true"
+                aria-label="color-ring-loading"
+                class=""
+                data-testid="color-ring-svg"
+                height="100"
+                preserveAspectRatio="xMidYMid"
+                role="status"
+                viewBox="0 0 100 100"
+                width="100"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <mask
+                    id="ldio-4offds5dlws-mask"
+                  >
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="26"
+                      stroke="#fff"
+                      stroke-dasharray="122.52211349000194 40.840704496667314"
+                      stroke-linecap="round"
+                      stroke-width="9"
+                      transform="rotate(198.018 50 50)"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        dur="1s"
+                        keyTimes="0;1"
+                        repeatCount="indefinite"
+                        type="rotate"
+                        values="0 50 50;360 50 50"
+                      />
+                    </circle>
+                  </mask>
+                </defs>
+                <g
+                  mask="url(#ldio-4offds5dlws-mask)"
+                >
+                  <rect
+                    fill="#e15b64"
+                    height="100"
+                    width="15"
+                    x="14.5"
+                    y="0"
+                  >
+                    <animate
+                      attributeName="fill"
+                      begin="-0.8s"
+                      dur="1s"
+                      keyTimes="0;0.25;0.5;0.75;1"
+                      repeatCount="indefinite"
+                      values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                    />
+                  </rect>
+                  <rect
+                    fill="#f47e60"
+                    height="100"
+                    width="15"
+                    x="28.5"
+                    y="0"
+                  >
+                    <animate
+                      attributeName="fill"
+                      begin="-0.6s"
+                      dur="1s"
+                      keyTimes="0;0.25;0.5;0.75;1"
+                      repeatCount="indefinite"
+                      values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                    />
+                  </rect>
+                  <rect
+                    fill="#f8b26a"
+                    height="100"
+                    width="15"
+                    x="42.5"
+                    y="0"
+                  >
+                    <animate
+                      attributeName="fill"
+                      begin="-0.4s"
+                      dur="1s"
+                      keyTimes="0;0.25;0.5;0.75;1"
+                      repeatCount="indefinite"
+                      values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                    />
+                  </rect>
+                  <rect
+                    fill="#abbd81"
+                    height="100"
+                    width="15"
+                    x="56.5"
+                    y="0"
+                  >
+                    <animate
+                      attributeName="fill"
+                      begin="-0.2s"
+                      dur="1s"
+                      keyTimes="0;0.25;0.5;0.75;1"
+                      repeatCount="indefinite"
+                      values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                    />
+                  </rect>
+                  <rect
+                    fill="#849b87"
+                    height="100"
+                    width="15"
+                    x="70.5"
+                    y="0"
+                  >
+                    <animate
+                      attributeName="fill"
+                      begin="0s"
+                      dur="1s"
+                      keyTimes="0;0.25;0.5;0.75;1"
+                      repeatCount="indefinite"
+                      values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                    />
+                  </rect>
+                </g>
+              </svg>
+            </div>
+          </ul>
+          <div
+            class="pagination"
+          >
+            <svg
+              fill="currentColor"
+              height="30"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z"
+              />
+            </svg>
+            1
+            <svg
+              fill="currentColor"
+              height="30"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="page_container"
+    >
+      <h1
+        class="heading"
+      >
+        Orders
+      </h1>
+      <div
+        class="catalog"
+      >
+        <div
+          class="filter_wrapper"
+        >
+          <div
+            class="select"
+          >
+            <div
+              class="select_wrapper"
+            >
+              <button
+                class="select"
+              >
+                нет фильтрации
+              </button>
+              <ul
+                class="list_hidden"
+              >
+                <li
+                  class="item"
+                  data-value="не подтверждено"
+                >
+                  не подтверждено
+                </li>
+                <li
+                  class="item"
+                  data-value="готовится"
+                >
+                  готовится
+                </li>
+                <li
+                  class="item"
+                  data-value="ожидает клиента"
+                >
+                  ожидает клиента
+                </li>
+                <li
+                  class="item"
+                  data-value="в доставке"
+                >
+                  в доставке
+                </li>
+                <li
+                  class="item"
+                  data-value="отменен"
+                >
+                  отменен
+                </li>
+                <li
+                  class="item"
+                  data-value="нет фильтрации"
+                >
+                  нет фильтрации
+                </li>
+              </ul>
+              <div
+                class="overflow"
+              />
+            </div>
+          </div>
+        </div>
+        <ul>
+          <div
+            data-testid="loader-test"
+            style="display: flex; justify-content: center; align-items: center;"
+          >
+            <svg
+              aria-busy="true"
+              aria-label="color-ring-loading"
+              class=""
+              data-testid="color-ring-svg"
+              height="100"
+              preserveAspectRatio="xMidYMid"
+              role="status"
+              viewBox="0 0 100 100"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <mask
+                  id="ldio-4offds5dlws-mask"
+                >
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="26"
+                    stroke="#fff"
+                    stroke-dasharray="122.52211349000194 40.840704496667314"
+                    stroke-linecap="round"
+                    stroke-width="9"
+                    transform="rotate(198.018 50 50)"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      dur="1s"
+                      keyTimes="0;1"
+                      repeatCount="indefinite"
+                      type="rotate"
+                      values="0 50 50;360 50 50"
+                    />
+                  </circle>
+                </mask>
+              </defs>
+              <g
+                mask="url(#ldio-4offds5dlws-mask)"
+              >
+                <rect
+                  fill="#e15b64"
+                  height="100"
+                  width="15"
+                  x="14.5"
+                  y="0"
+                >
+                  <animate
+                    attributeName="fill"
+                    begin="-0.8s"
+                    dur="1s"
+                    keyTimes="0;0.25;0.5;0.75;1"
+                    repeatCount="indefinite"
+                    values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                  />
+                </rect>
+                <rect
+                  fill="#f47e60"
+                  height="100"
+                  width="15"
+                  x="28.5"
+                  y="0"
+                >
+                  <animate
+                    attributeName="fill"
+                    begin="-0.6s"
+                    dur="1s"
+                    keyTimes="0;0.25;0.5;0.75;1"
+                    repeatCount="indefinite"
+                    values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                  />
+                </rect>
+                <rect
+                  fill="#f8b26a"
+                  height="100"
+                  width="15"
+                  x="42.5"
+                  y="0"
+                >
+                  <animate
+                    attributeName="fill"
+                    begin="-0.4s"
+                    dur="1s"
+                    keyTimes="0;0.25;0.5;0.75;1"
+                    repeatCount="indefinite"
+                    values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                  />
+                </rect>
+                <rect
+                  fill="#abbd81"
+                  height="100"
+                  width="15"
+                  x="56.5"
+                  y="0"
+                >
+                  <animate
+                    attributeName="fill"
+                    begin="-0.2s"
+                    dur="1s"
+                    keyTimes="0;0.25;0.5;0.75;1"
+                    repeatCount="indefinite"
+                    values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                  />
+                </rect>
+                <rect
+                  fill="#849b87"
+                  height="100"
+                  width="15"
+                  x="70.5"
+                  y="0"
+                >
+                  <animate
+                    attributeName="fill"
+                    begin="0s"
+                    dur="1s"
+                    keyTimes="0;0.25;0.5;0.75;1"
+                    repeatCount="indefinite"
+                    values="#e15b64;#f47e60;#f8b26a;#abbd81;#849b87"
+                  />
+                </rect>
+              </g>
+            </svg>
+          </div>
+        </ul>
+        <div
+          class="pagination"
+        >
+          <svg
+            fill="currentColor"
+            height="30"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z"
+            />
+          </svg>
+          1
+          <svg
+            fill="currentColor"
+            height="30"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

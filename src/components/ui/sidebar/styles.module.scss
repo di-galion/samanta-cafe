@@ -1,0 +1,11 @@
+.layout {
+  @apply w-screen z-[10] h-screen bg-overlay left-0  top-0 transition-all fixed;
+
+  .menu {
+    @apply bg-white h-full w-64 p-4
+  }
+
+  .active {
+    @apply opacity-100 top-36
+  }
+}

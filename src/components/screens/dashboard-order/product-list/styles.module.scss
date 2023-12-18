@@ -1,0 +1,5 @@
+.product_list_overlay {
+  .product_list {
+    @apply mx-2 mt-2 bg-white border-gray-500 border-2 min-h-fit max-h-[15rem] overflow-scroll;
+  }
+}

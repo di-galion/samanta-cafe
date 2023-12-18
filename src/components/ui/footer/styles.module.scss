@@ -1,0 +1,61 @@
+.footer {
+  @apply  w-screen mx-auto p-4 pt-8 text-sm flex justify-between bg-gray-700 text-white;
+
+  @media (max-width: theme('screens.sm')){
+    @apply flex-col justify-center gap-10;
+  }
+
+  .sec_first {
+    @apply w-[30%];
+    @media (max-width: theme('screens.sm')){
+      @apply w-auto;
+    }
+    .serve_block {
+      @apply mb-2;
+      .text {
+        @apply pb-1 text-center;
+      }
+      .tel {
+        @apply text-green-400 text-center
+      }
+    }
+  }
+
+  .sec_second {
+    @apply w-[30%];
+    @media (max-width: theme('screens.sm')){
+      @apply w-auto;
+    }
+    .social {
+     @apply flex justify-around w-[30%]
+    }
+
+    .policy {
+      .text {
+        @apply uppercase text-center
+      }
+    }
+
+    .app {
+    @apply flex justify-center gap-20  mt-4
+    }
+  }
+
+  .sec_third {
+    @apply w-[30%];
+    @media (max-width: theme('screens.sm')){
+      @apply w-auto;
+    }
+    .label {
+      @apply rounded-3xl overflow-hidden mx-[auto] mb-4
+    }
+
+    .friends {
+      @apply text-center
+    }
+
+    .text {
+
+    }
+  }
+}

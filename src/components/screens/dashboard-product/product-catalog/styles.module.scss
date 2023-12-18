@@ -1,0 +1,7 @@
+.catalog {
+  @apply mb-6;
+
+  .select {
+    @apply flex gap-2 min-w-[15rem] max-w-[15rem];
+  }
+}

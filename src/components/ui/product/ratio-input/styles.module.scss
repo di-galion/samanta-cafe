@@ -1,0 +1,46 @@
+.size {
+  @apply flex items-center rounded-3xl relative;
+  .text {
+    @apply z-[2] flex w-[50%] justify-center items-center text-xs font-bold h-full;
+    //text-neutral-600
+  }
+
+  .overlay {
+    @apply h-full z-[0] absolute rounded-3xl border transition-all ease-in-out duration-150;
+  }
+}
+
+.no_checked {
+  @apply text-green-700
+}
+
+.lg {
+  @apply w-full
+}
+
+.sm {
+  @apply w-[200px]
+}
+
+.main {
+  @apply h-[30px] bg-gray-300;
+
+  .text {
+
+  }
+
+  .overlay {
+    @apply bg-white border-green-400
+  }
+}
+
+.order {
+  @apply h-[40px] bg-gray-300 border-green-400;
+
+  .text {
+    @apply text-white
+  }
+  .overlay  {
+    @apply bg-green-600
+  }
+}

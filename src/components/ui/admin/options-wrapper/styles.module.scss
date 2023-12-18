@@ -1,0 +1,6 @@
+.options_wrapper {
+  @apply flex justify-between bg-gray-600 items-center py-3 px-3 mb-4;
+  .select {
+    @apply min-w-[10rem] max-w-[15rem];
+  }
+}

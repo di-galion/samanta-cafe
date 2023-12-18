@@ -1,0 +1,7 @@
+.dashboard_container {
+  @apply  h-screen my-4;
+
+  .header {
+    @apply flex gap-4
+  }
+}

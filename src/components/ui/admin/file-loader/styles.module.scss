@@ -1,0 +1,7 @@
+.file_wrapper {
+  @apply flex h-32 flex-col justify-center items-center border-2 border-dashed border-yellow-50 cursor-pointer rounded;
+
+  .file {
+    @apply hidden
+  }
+}

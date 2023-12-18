@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart page Cart page render 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="cart"
+      >
+        <h1
+          class="heading"
+        >
+          Оформление заказа
+        </h1>
+        <div
+          class="exit_icon"
+        >
+          <svg
+            fill="currentColor"
+            height="40"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <span
+            class="exit_text"
+          >
+            Вернуться в меню
+          </span>
+        </div>
+        <div
+          class="table"
+        >
+          <div
+            class="header"
+          >
+            <div
+              class="col_dish"
+            >
+              Блюдо
+            </div>
+            <div
+              class="col col_price"
+            >
+              Цена
+            </div>
+            <div
+              class="col"
+            >
+              Количество
+            </div>
+            <div
+              class="col"
+            >
+              Стоимость
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer"
+        >
+          <div
+            class="total_sum"
+          >
+            <div
+              class="text"
+            >
+              Сумма заказа:
+            </div>
+            <div
+              class="text"
+            >
+              0
+               руб.
+            </div>
+          </div>
+          <div
+            class="total"
+          >
+            <div
+              class="text"
+            >
+              Итого:
+            </div>
+            <div
+              class="text"
+            >
+              0
+               руб.
+            </div>
+          </div>
+          <p
+            class="delivery_information"
+          >
+            При заказе от 600 руб. с учетом бонусов и скидок доставка бесплатная.
+            <br />
+            При заказе менее 600 руб. стоимость доставки 130 руб.
+          </p>
+        </div>
+        <div
+          class="button_container"
+        >
+          <button
+            class="red"
+            type="button"
+          >
+            Оформить заказ
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="cart"
+    >
+      <h1
+        class="heading"
+      >
+        Оформление заказа
+      </h1>
+      <div
+        class="exit_icon"
+      >
+        <svg
+          fill="currentColor"
+          height="40"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="40"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <span
+          class="exit_text"
+        >
+          Вернуться в меню
+        </span>
+      </div>
+      <div
+        class="table"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="col_dish"
+          >
+            Блюдо
+          </div>
+          <div
+            class="col col_price"
+          >
+            Цена
+          </div>
+          <div
+            class="col"
+          >
+            Количество
+          </div>
+          <div
+            class="col"
+          >
+            Стоимость
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer"
+      >
+        <div
+          class="total_sum"
+        >
+          <div
+            class="text"
+          >
+            Сумма заказа:
+          </div>
+          <div
+            class="text"
+          >
+            0
+             руб.
+          </div>
+        </div>
+        <div
+          class="total"
+        >
+          <div
+            class="text"
+          >
+            Итого:
+          </div>
+          <div
+            class="text"
+          >
+            0
+             руб.
+          </div>
+        </div>
+        <p
+          class="delivery_information"
+        >
+          При заказе от 600 руб. с учетом бонусов и скидок доставка бесплатная.
+          <br />
+          При заказе менее 600 руб. стоимость доставки 130 руб.
+        </p>
+      </div>
+      <div
+        class="button_container"
+      >
+        <button
+          class="red"
+          type="button"
+        >
+          Оформить заказ
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,21 @@
+.sail {
+  @apply flex max-w-[20rem] min-w-[10rem] bg-gray-300 py-4 px-4 ;
+
+  .info_section {
+    .options_wrapper {
+      @apply flex justify-end gap-2;
+
+    }
+
+    .input_wrapper {
+      @apply flex flex-wrap justify-between items-center;
+
+      .input {
+        @apply mt-1 w-auto appearance-none outline-0 bg-gray-300 border-transparent border-2 px-2 py-1;
+      }
+      .active_input {
+        @apply border-gray-500 border-2 bg-white
+      }
+    }
+  }
+}

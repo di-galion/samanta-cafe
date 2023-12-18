@@ -1,0 +1,15 @@
+.status_section {
+  //@apply
+  .status {
+    @apply inline-block p-2 bg-green-600 mb-2;
+  }
+}
+
+
+.sails {
+  @apply flex gap-2 px-2 flex-wrap;
+}
+
+.button_add_sails {
+  @apply mt-2 ml-2;
+}

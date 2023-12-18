@@ -1,0 +1,19 @@
+.slider {
+  @apply overflow-hidden w-full relative z-[2] h-[10rem];
+
+  &__content {
+    @apply flex h-full transition-all ease-in-out duration-700 justify-center gap-4;
+
+    .item {
+      @apply  h-full w-full transition ease-in-out duration-700;
+    }
+  }
+
+  .left {
+    @apply absolute top-1/2 left-5 z-10 text-white
+  }
+
+  .right {
+    @apply absolute top-1/2 z-10 right-5 text-white
+  }
+}

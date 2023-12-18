@@ -1,0 +1,39 @@
+.slider {
+  @apply overflow-hidden w-full px-10 mx-auto relative z-[2] items-center;
+
+  &__content {
+    @apply inline-flex h-full transition-all ease-in-out duration-700 gap-4;
+
+    .item {
+      @apply  h-full w-full transition ease-in-out duration-700;
+    }
+  }
+
+  .left {
+    @apply absolute top-1/2 left-0 z-10 text-white
+  }
+
+  .right {
+    @apply absolute top-1/2 z-10 right-0 text-white
+  }
+}
+
+
+
+.additional {
+  @apply p-4 w-64 shadow;
+  .image {
+  @apply mx-auto mb-1
+  }
+
+  .heading {
+    @apply text-center text-sm
+  }
+
+  .footer {
+    @apply flex justify-between;
+    .price {
+      @apply  text-sm
+    }
+  }
+}

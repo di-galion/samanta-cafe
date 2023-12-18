@@ -1,0 +1,32 @@
+.product_page {
+  .container {
+    @apply flex  w-full px-3 mb-10;
+    @media (max-width: theme('screens.md')) {
+      @apply flex-col items-center
+    }
+    .image_block {
+      @apply min-w-[50%] mb-6
+    }
+
+    .information {
+      @apply text-center;
+      .heading {
+        @apply uppercase text-xl font-bold
+      }
+
+      .description {
+        @apply mb-6 mt-3 text-base text-[#7D7D7D]
+      }
+
+      .ratio_container {
+        @apply flex flex-col gap-2 w-[80%] mx-auto  ;
+      }
+    }
+  }
+
+  .additional {
+    .text {
+      @apply uppercase text-lg my-4 font-medium text-[#333333]
+    }
+  }
+}

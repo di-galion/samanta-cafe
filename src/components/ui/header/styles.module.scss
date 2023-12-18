@@ -1,0 +1,115 @@
+
+.header {
+    @apply w-full min-h-[100px] h-28 px-16 py-1 fixed bg-white z-10;
+
+    @media (max-width: theme('screens.lg')){
+        @apply px-5 pt-1 pb-0
+    }
+
+    @media (max-width: theme('screens.sm')){
+        @apply px-2 py-5
+    }
+
+    .container {
+        @apply flex justify-center;
+    }
+
+    .menu {
+        @apply hidden pr-4 pt-1;
+
+        @media (max-width: theme('screens.lg')){
+            @apply block
+        }
+    }
+
+    .logo {
+        @apply w-32 h-32  rounded-full mr-10;
+
+        @media (max-width: theme('screens.lg')){
+            @apply w-12 h-12
+        }
+
+    }
+
+    &__main {
+        @apply flex flex-col w-4/5 gap-5
+    }
+
+    .section__first {
+        @apply flex justify-between items-center border-b border-amber-950  pl-4 h-[57px];
+
+        @media (max-width: theme('screens.lg')){
+            @apply border-none
+        }
+
+        .heading {
+            @apply flex items-center leading-3 text-center text-[#646464];
+
+            @media (max-width: theme('screens.lg')){
+                @apply self-center flex-col text-xs w-28
+            }
+
+
+            .phone {
+                @apply text-xl text-green-500;
+
+                &:hover {
+                    @apply text-red-600
+                }
+
+
+                @media (max-width: theme('screens.lg')){
+                    @apply text-xs
+                }
+            }
+
+            .border  {
+                @apply border-l h-8 border-[#646464] mx-6;
+
+                @media (max-width: theme('screens.lg')){
+                    @apply hidden
+                }
+            }
+        }
+
+        .entrance {
+            @apply flex items-center text-neutral-500;
+
+            &:hover {
+                @apply text-green-500
+            }
+
+            @media (max-width: theme('screens.lg')){
+                @apply hidden
+            }
+
+            &__text {
+                @apply text-sm pl-4 font-medium
+            }
+        }
+
+        .cart {
+            @apply pr-4 flex items-center relative;
+
+            &:hover {
+                @apply text-green-500;
+                .cart_quantity {
+                    @apply bg-green-500
+                }
+            }
+
+            .cart_quantity {
+                @apply absolute top-0 right-2 bg-red-600 text-white rounded px-2
+            }
+        }
+    }
+
+    .section__second {
+        @apply flex justify-between font-bold h-[36px];
+
+        @media (max-width: theme('screens.lg')){
+            @apply hidden
+        }
+    }
+
+}

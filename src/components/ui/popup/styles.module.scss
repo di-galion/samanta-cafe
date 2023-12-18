@@ -1,0 +1,23 @@
+.over_popup {
+  @apply z-30 fixed bg-overlay flex justify-center items-center top-0 left-0 bottom-0 right-0;
+
+  .popup {
+    @apply relative px-2 py-4 bg-white rounded min-h-[10rem] min-w-[15rem] ;
+
+    .cross {
+      @apply absolute top-1 right-1;
+    }
+    .header {
+      @apply text-center relative mb-2 text-lg font-medium;
+
+    }
+
+    .body {
+      @apply flex h-[5rem];
+    }
+
+    .footer {
+      @apply flex justify-end gap-2;
+    }
+  }
+}

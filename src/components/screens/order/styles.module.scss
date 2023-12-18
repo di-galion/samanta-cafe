@@ -1,0 +1,14 @@
+.order {
+  @apply max-w-2xl mx-auto mb-8;
+  .ratio_container {
+    @apply mx-auto my-4 max-w-xl
+  }
+
+  .form {
+    @apply flex gap-2 flex-col;
+
+    .delivery_time_input_container {
+      @apply flex gap-2
+    }
+  }
+}

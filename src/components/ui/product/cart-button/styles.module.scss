@@ -1,0 +1,21 @@
+.button {
+  margin-top: 1rem;
+  appearance: none;
+  border: 0;
+  border-radius: 30px;
+  background: red;
+  color: #fff;
+  padding: 0.3rem 2.5rem;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out 0s;
+
+  &:hover {
+    content: "edfs";
+    background-color: #52b14c;
+  }
+
+  &:active {
+    background-color: white;
+    transform: scale(1.1);
+  }
+}

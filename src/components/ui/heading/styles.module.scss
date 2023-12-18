@@ -1,0 +1,7 @@
+.heading {
+  @apply text-3xl font-medium px-3 uppercase text-neutral-700;
+
+  @media (max-width: theme('screens.sm')) {
+    @apply text-center
+  }
+}

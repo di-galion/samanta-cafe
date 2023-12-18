@@ -1,0 +1,12 @@
+.auth {
+  .heading {
+    @apply text-center uppercase text-2xl
+  }
+  .form {
+    @apply max-w-2xl mx-auto mb-8;
+
+    .buttons_container {
+      @apply flex gap-5 mt-4
+    }
+  }
+}

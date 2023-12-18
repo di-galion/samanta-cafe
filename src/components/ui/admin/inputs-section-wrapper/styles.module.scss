@@ -1,0 +1,18 @@
+.inputs_section {
+  @apply px-2;
+
+  .row {
+    @apply bg-gray-300 flex items-center justify-between px-3 py-1 mb-2;
+
+    .input {
+      @apply appearance-none outline-0 text-end bg-gray-300 border-transparent border-2 px-2 py-1;
+    }
+    .active_input {
+      @apply border-gray-500 border-2 bg-white
+    }
+  }
+
+  .children {
+    @apply flex justify-center flex-col
+  }
+}

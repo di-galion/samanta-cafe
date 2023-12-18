@@ -1,0 +1,23 @@
+.select_wrapper {
+  @apply relative w-full;
+
+  .select {
+    @apply appearance-none py-2 px-4 w-full bg-white;
+  }
+
+  .list_hidden {
+    @apply invisible bg-black opacity-0 h-0 transition-all duration-0 ease-in-out absolute top-12 bottom-0 right-0 left-0 pointer-events-auto
+  }
+
+  .list {
+    @apply z-[1]  visible opacity-100;
+
+    .item {
+      @apply py-2 px-4 bg-white border-gray-500 border-2 cursor-pointer border-b-0;
+
+      &:hover {
+        @apply bg-blue-300
+      }
+    }
+  }
+}

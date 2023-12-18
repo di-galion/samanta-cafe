@@ -1,0 +1,78 @@
+.row {
+  @apply flex border-b border-dashed py-2 relative;
+
+  .delete {
+    @apply absolute top-1 right-1
+  }
+
+  .col_dish {
+    @apply w-[50%];
+
+    @media (max-width: theme('screens.md')){
+      @apply w-[40%]
+    }
+
+    .block {
+      @apply flex;
+
+      .image {
+        @media (max-width: theme('screens.md')){
+          @apply hidden
+        }
+      }
+
+      .text_container {
+        @apply flex flex-col gap-1 h-full ;
+
+        .text {
+          @apply flex justify-center items-center px-10;
+          @media (max-width: theme('screens.md')){
+            @apply p-0 pl-1 text-[12px];
+          }
+        }
+
+        .description {
+          @apply text-[13px] px-10 text-[#928F8F];
+
+          @media (max-width: theme('screens.md')){
+            @apply p-0  pl-1 text-[12px];
+          }
+        }
+      }
+
+    }
+  }
+
+  .col {
+    @apply w-[18%];
+
+    @media (max-width: theme('screens.md')){
+      @apply w-[25%]
+    }
+
+    &_price {
+      @media (max-width: theme('screens.md')){
+        @apply hidden
+      }
+    }
+
+    &_quantity {
+      @media (max-width: theme('screens.md')){
+        @apply w-[40%]
+      }
+    }
+
+    &_sum {
+      @media (max-width: theme('screens.md')){
+        @apply w-[20%]
+      }
+    }
+
+    .text {
+      @apply flex justify-center items-center h-full text-[16px] px-6;
+      @media (max-width: theme('screens.md')){
+        @apply p-0 text-[12px];
+      }
+    }
+  }
+}

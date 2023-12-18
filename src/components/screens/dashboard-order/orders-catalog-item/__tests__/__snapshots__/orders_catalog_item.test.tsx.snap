@@ -1,0 +1,699 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order catalog item Order catalog item render 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <li
+        class="item"
+      >
+        <form
+          data-testid="order-item-test"
+        >
+          <div
+            class="options_wrapper"
+          >
+            <div
+              class="select"
+            >
+              <div
+                class="select_wrapper"
+                data-testod="change-status-test"
+              >
+                <button
+                  class="select"
+                  data-testid="select-button-test"
+                  type="button"
+                >
+                  не подтверждено
+                </button>
+                <ul
+                  class="list_hidden"
+                  data-testid="select-list-test"
+                >
+                  <li
+                    class="item"
+                    data-value="не подтверждено"
+                  >
+                    не подтверждено
+                  </li>
+                  <li
+                    class="item"
+                    data-value="готовится"
+                  >
+                    готовится
+                  </li>
+                  <li
+                    class="item"
+                    data-value="ожидает клиента"
+                  >
+                    ожидает клиента
+                  </li>
+                  <li
+                    class="item"
+                    data-value="в доставке"
+                  >
+                    в доставке
+                  </li>
+                  <li
+                    class="item"
+                    data-value="отменен"
+                  >
+                    отменен
+                  </li>
+                </ul>
+                <div
+                  class="overflow"
+                />
+              </div>
+            </div>
+            <svg
+              fill="currentColor"
+              height="30"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
+              />
+            </svg>
+          </div>
+          <div
+            class="inputs_section"
+          >
+            <div
+              class="row"
+            >
+              <p>
+                Имя
+              </p>
+              <input
+                class="input"
+                disabled=""
+                id="Имя"
+                name="Имя"
+                value="Dima"
+              />
+            </div>
+            <div
+              class="row"
+            >
+              <p>
+                Телефон
+              </p>
+              <input
+                class="input"
+                disabled=""
+                id="Телефон"
+                name="Телефон"
+                value="89148508355"
+              />
+            </div>
+            <div
+              class="row"
+            >
+              <p>
+                Улица
+              </p>
+              <input
+                class="input"
+                disabled=""
+                id="Улица"
+                name="Улица"
+                value="Garlanovo"
+              />
+            </div>
+            <div
+              class="row"
+            >
+              <p>
+                Дом
+              </p>
+              <input
+                class="input"
+                disabled=""
+                id="Дом"
+                name="Дом"
+                value="234"
+              />
+            </div>
+            <div
+              class="row"
+            >
+              <p>
+                Подьезд
+              </p>
+              <input
+                class="input"
+                disabled=""
+                id="Подьезд"
+                name="Подьезд"
+                value="2"
+              />
+            </div>
+            <div
+              class="row"
+            >
+              <p>
+                Этаж
+              </p>
+              <input
+                class="input"
+                disabled=""
+                id="Этаж"
+                name="Этаж"
+                value="12"
+              />
+            </div>
+            <div
+              class="row"
+            >
+              <p>
+                Комната
+              </p>
+              <input
+                class="input"
+                disabled=""
+                id="Комната"
+                name="Комната"
+                value="154"
+              />
+            </div>
+            <div
+              class="row"
+            >
+              <p>
+                Ключ
+              </p>
+              <input
+                class="input"
+                disabled=""
+                id="Ключ"
+                name="Ключ"
+                value="#1245"
+              />
+            </div>
+            <div
+              class="row"
+            >
+              <p>
+                Комментарий
+              </p>
+              <input
+                class="input"
+                disabled=""
+                id="Комментарий"
+                name="Комментарий"
+                value="Some comment"
+              />
+            </div>
+            <div
+              class="children"
+            />
+          </div>
+          <div
+            class="sails"
+          >
+            <div
+              class="sail"
+            >
+              <form
+                class="info_section"
+                data-testid="sail-item-test"
+                id="form-sail 1"
+              >
+                <div
+                  class="options_wrapper"
+                >
+                  <svg
+                    data-testid="button-edit-test"
+                    fill="currentColor"
+                    height="23"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="23"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
+                    />
+                  </svg>
+                  <svg
+                    class="delete"
+                    data-testid="button-delete-test"
+                    fill="none"
+                    height="20"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 15 15"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="input_wrapper"
+                >
+                  <label
+                    for="Sail"
+                  >
+                    Name:
+                  </label>
+                  <input
+                    class="input"
+                    disabled=""
+                    name="Sail"
+                    value="Sail"
+                  />
+                  <label
+                    for="124"
+                  >
+                    Price:
+                  </label>
+                  <input
+                    class="input"
+                    disabled=""
+                    name="124"
+                    value="124"
+                  />
+                  <label
+                    for="1"
+                  >
+                    Quantity:
+                  </label>
+                  <input
+                    class="input"
+                    disabled=""
+                    name="1"
+                    value="1"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div
+            class="button_add_sails"
+          >
+            <button
+              class="main"
+              data-testid="button-add-sails-test"
+            >
+              Add sails
+            </button>
+          </div>
+          <div
+            class="total"
+          >
+            1245
+          </div>
+        </form>
+      </li>
+    </div>
+  </body>,
+  "container": <div>
+    <li
+      class="item"
+    >
+      <form
+        data-testid="order-item-test"
+      >
+        <div
+          class="options_wrapper"
+        >
+          <div
+            class="select"
+          >
+            <div
+              class="select_wrapper"
+              data-testod="change-status-test"
+            >
+              <button
+                class="select"
+                data-testid="select-button-test"
+                type="button"
+              >
+                не подтверждено
+              </button>
+              <ul
+                class="list_hidden"
+                data-testid="select-list-test"
+              >
+                <li
+                  class="item"
+                  data-value="не подтверждено"
+                >
+                  не подтверждено
+                </li>
+                <li
+                  class="item"
+                  data-value="готовится"
+                >
+                  готовится
+                </li>
+                <li
+                  class="item"
+                  data-value="ожидает клиента"
+                >
+                  ожидает клиента
+                </li>
+                <li
+                  class="item"
+                  data-value="в доставке"
+                >
+                  в доставке
+                </li>
+                <li
+                  class="item"
+                  data-value="отменен"
+                >
+                  отменен
+                </li>
+              </ul>
+              <div
+                class="overflow"
+              />
+            </div>
+          </div>
+          <svg
+            fill="currentColor"
+            height="30"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
+            />
+          </svg>
+        </div>
+        <div
+          class="inputs_section"
+        >
+          <div
+            class="row"
+          >
+            <p>
+              Имя
+            </p>
+            <input
+              class="input"
+              disabled=""
+              id="Имя"
+              name="Имя"
+              value="Dima"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <p>
+              Телефон
+            </p>
+            <input
+              class="input"
+              disabled=""
+              id="Телефон"
+              name="Телефон"
+              value="89148508355"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <p>
+              Улица
+            </p>
+            <input
+              class="input"
+              disabled=""
+              id="Улица"
+              name="Улица"
+              value="Garlanovo"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <p>
+              Дом
+            </p>
+            <input
+              class="input"
+              disabled=""
+              id="Дом"
+              name="Дом"
+              value="234"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <p>
+              Подьезд
+            </p>
+            <input
+              class="input"
+              disabled=""
+              id="Подьезд"
+              name="Подьезд"
+              value="2"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <p>
+              Этаж
+            </p>
+            <input
+              class="input"
+              disabled=""
+              id="Этаж"
+              name="Этаж"
+              value="12"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <p>
+              Комната
+            </p>
+            <input
+              class="input"
+              disabled=""
+              id="Комната"
+              name="Комната"
+              value="154"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <p>
+              Ключ
+            </p>
+            <input
+              class="input"
+              disabled=""
+              id="Ключ"
+              name="Ключ"
+              value="#1245"
+            />
+          </div>
+          <div
+            class="row"
+          >
+            <p>
+              Комментарий
+            </p>
+            <input
+              class="input"
+              disabled=""
+              id="Комментарий"
+              name="Комментарий"
+              value="Some comment"
+            />
+          </div>
+          <div
+            class="children"
+          />
+        </div>
+        <div
+          class="sails"
+        >
+          <div
+            class="sail"
+          >
+            <form
+              class="info_section"
+              data-testid="sail-item-test"
+              id="form-sail 1"
+            >
+              <div
+                class="options_wrapper"
+              >
+                <svg
+                  data-testid="button-edit-test"
+                  fill="currentColor"
+                  height="23"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="23"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19.045 7.401c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.378-.378-.88-.586-1.414-.586s-1.036.208-1.413.585L4 13.585V18h4.413L19.045 7.401zm-3-3 1.587 1.585-1.59 1.584-1.586-1.585 1.589-1.584zM6 16v-1.585l7.04-7.018 1.586 1.586L7.587 16H6zm-2 4h16v2H4z"
+                  />
+                </svg>
+                <svg
+                  class="delete"
+                  data-testid="button-delete-test"
+                  fill="none"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 15 15"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div
+                class="input_wrapper"
+              >
+                <label
+                  for="Sail"
+                >
+                  Name:
+                </label>
+                <input
+                  class="input"
+                  disabled=""
+                  name="Sail"
+                  value="Sail"
+                />
+                <label
+                  for="124"
+                >
+                  Price:
+                </label>
+                <input
+                  class="input"
+                  disabled=""
+                  name="124"
+                  value="124"
+                />
+                <label
+                  for="1"
+                >
+                  Quantity:
+                </label>
+                <input
+                  class="input"
+                  disabled=""
+                  name="1"
+                  value="1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="button_add_sails"
+        >
+          <button
+            class="main"
+            data-testid="button-add-sails-test"
+          >
+            Add sails
+          </button>
+        </div>
+        <div
+          class="total"
+        >
+          1245
+        </div>
+      </form>
+    </li>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

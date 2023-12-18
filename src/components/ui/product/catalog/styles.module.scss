@@ -1,0 +1,11 @@
+.container {
+  @apply mt-6;
+
+  .catalog {
+    @apply flex flex-wrap justify-between gap-3 max-w-[1300px] mt-5 px-4;
+
+    @media (max-width: theme('screens.sm')){
+      @apply justify-center
+    }
+  }
+}

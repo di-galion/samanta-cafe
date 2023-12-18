@@ -1,0 +1,38 @@
+.product {
+  @apply w-[300px] rounded-xl overflow-hidden;
+
+  .image {
+    @apply overflow-hidden max-h-[225px];
+  }
+
+  &__container {
+    @apply p-2;
+
+    &:hover {
+      @apply bg-orange-100
+    }
+
+    .heading {
+      @apply text-center text-lg text-neutral-900 font-medium font-medium;
+    }
+
+    .description {
+      @apply text-center text-neutral-600 my-3 text-[13px]
+    }
+
+    .ratio_container {
+      @apply flex flex-col gap-2 items-center;
+    }
+
+    .footer {
+      @apply flex justify-between items-center mt-4;
+
+      .price {
+        @apply text-[19px] font-bold;
+      }
+      .buttonSubmit {
+        @apply mt-[1rem] appearance-none border-0 bg-red-600 rounded-2xl py-[8px] px-[38px] transition-all duration-300 ease-in-out
+      }
+    }
+  }
+}
